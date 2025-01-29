@@ -1,4 +1,28 @@
 fun main(){
+    var m1 = Maths()
+    m1.addition()
+    m1.multiply()
+    m1.subtraction()
+    m1.division()
+
+    var p = Point()
+    var p1 = Point(10,23)
+    p.equals(p1)
+
+    var pointObject = Point1(10,20) //primary constructor
+    pointObject.display()
+
+    var p3 = Point1()  //secondary constructor
+    var p4 = Point1(12) //secondary constructor
+
+    var p5 = Point1()
+    p5.name = "Sakshi"
+    p5.display()
+
+    var s1 = Student("Sakshi",2003)
+    println("${s1.age}")
+
+    var n : Any // any is superclass or base class
     var arr : Array<Int> = arrayOf(10,20,30,40,50)  //method in kotlin arrayOf
     var intArr : IntArray = intArrayOf(11,20,45,62,85) //method in kotlin intArrayOf
     var arr1 = arrayOf("Java","C","C++","Kotlin","Swift")
